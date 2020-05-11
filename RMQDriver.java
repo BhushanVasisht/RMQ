@@ -15,7 +15,7 @@ import bsv180000.RMQ;
  */
 public class RMQDriver {
     private static Random random = new Random();
-    private static final int[] ranges = {128000, 256000, 512000};
+    private static final int[] ranges = {128000000, 256000000, 512000000};
 
     public static void main(String[] args)
     {
