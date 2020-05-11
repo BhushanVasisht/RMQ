@@ -7,6 +7,8 @@
 package bsv180000;
 
 import java.util.Random;
+import bsv180000.Timer;
+import bsv180000.RMQ;
 
 /**
  * Driver class for RMQ
