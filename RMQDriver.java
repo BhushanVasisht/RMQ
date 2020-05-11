@@ -36,7 +36,7 @@ public class RMQDriver {
 
             Timer qT = new Timer();
             qT.start();
-            for(int i = 1; i < longRange; ++i)
+            for(int i = 1; i < 1000000; ++i)
             {
                 int l = (int)(Math.random() * longRange);
                 int r = (int)(Math.random() * longRange);
@@ -44,7 +44,7 @@ public class RMQDriver {
             }
             qT.end();
 
-            System.out.println("Querying for " + longRange + " ranges took " + qT);
+            System.out.println("Querying for " + 1000000 + " ranges took " + qT);
             System.out.println("------------------");
         }
     }
